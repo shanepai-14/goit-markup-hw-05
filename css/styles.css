@@ -493,3 +493,49 @@ img {
 .sfive-icons {
   fill: currentColor;
 }
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(46, 47, 66, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.close-button {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--cornflower);
+  cursor: pointer;
+}
+
+.close-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--navy);
+}
+
+.modal {
+  width: 408px;
+  height: 584px;
+  background-color: var(--dairy);
+  border-radius: 4px;
+  padding: 24px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+  position: relative;
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
