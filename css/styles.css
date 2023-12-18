@@ -136,6 +136,7 @@ body {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero .hero-btn:hover,
@@ -215,6 +216,7 @@ body {
 .socmed-footer-list {
   width: 40px;
   height: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socmed-footer-link {
   display: flex;
@@ -405,6 +407,7 @@ img {
   width: 40px;
   height: 40px;
   margin: 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link {
   display: flex;
