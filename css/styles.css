@@ -10,6 +10,8 @@
   --btn-color: #4d5ae5;
   --icon-color: #8e8f99;
   --icon-green: #31d0aa;
+  --dairy: #fcfcfc;
+  --cornflower: #e7e9fc;
 }
 * {
   margin: 0 auto;
@@ -521,7 +523,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--navy);
+  fill: var(--nav-color);
 }
 
 .modal {

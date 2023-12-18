@@ -236,5 +236,14 @@
   <path d="M34.3285 10.1415L33.8132 12.2131C33.9551 12.2483 37.2885 13.1166 37.2885 16.5108H39.4219C39.4218 12.4765 36.0906 10.5799 34.3285 10.1415Z" fill="#2E2F42"/>
   <path d="M39.422 18.644H37.2886V20.7775H39.422V18.644Z" fill="#2E2F42"/>
 </symbol>
-
+<symbol xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" id="close">
+  <g clip-path="url(#clip0_623296_150)">
+    <path d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_623296_150">
+      <rect width="8" height="8" fill="white"/>
+    </clipPath>
+  </defs>
+</symbol>
 </svg>
